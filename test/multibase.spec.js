@@ -25,6 +25,7 @@ const supportedBases = [
   ['base58flickr', 'yes mani !', 'Z7Pznk19XTTzBtx'],
   ['base58btc', 'yes mani !', 'z7paNL19xttacUY'],
   ['base64', '÷ïÿ', 'mw7fDr8O/'],
+  ['base64pad', new Buffer([0x14, 0xfb, 0x9c, 0x03]), 'MFPucAw=='],
   ['base64url', '÷ïÿ', 'uw7fDr8O_']
 ]
 
